@@ -7,7 +7,12 @@ module.exports = {
     extend: {
       colors:{
         'primary': '#18a6b4'
-      }
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'Signika': ['Signika']
+      },
+
     },
   },
   plugins: [],

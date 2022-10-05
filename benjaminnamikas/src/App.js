@@ -1,8 +1,27 @@
+import React from 'react';
+import './index.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Nav from "./components/Nav.jsx"
-export default function App() {
-  return (
-    <section>
-      <Nav/>
-    </section>
-  )
-}
+import Home from "./pages/Home.jsx"
+import './assets/icofont/icofont.min.css';
+
+const App =() => {
+    return(
+  <BrowserRouter>
+  <Nav/>
+  <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/about-me" element={<Home/>}/>
+    <Route path="/resume" element={<Home/>}/>
+    <Route path="/projects" element={<Home/>}/>
+  </Routes>
+  </BrowserRouter>
+    )
+};
+
+export default App;
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
