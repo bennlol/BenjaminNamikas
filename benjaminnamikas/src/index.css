@@ -8,18 +8,19 @@
 }
 
 .dark-gradient{
-    background-color: rgb(0, 0, 0);
-    background-image:   radial-gradient(at 50% 0%, rgba(22, 0, 77, 0.5) 0, transparent 43%),
-                        radial-gradient(at 29% 38%, rgba(0, 33, 84, 0.5) 0, transparent 43%),
-                        radial-gradient(at 69% 58%, rgba(0, 58, 68, 0.358) 0, transparent 33%),
-                        radial-gradient(at 89% 98%, rgba(37, 0, 52, 0.5) 0, transparent 43%),
-                        radial-gradient(at 99% 28%, rgba(18, 0, 88, 0.5) 0, transparent 43%),
-                        radial-gradient(at 0% 0%, rgba(0, 5, 80, 0.5) 0, transparent 43%),
-                        radial-gradient(at 100% 100%, rgba(0, 5, 80, 0.3) 0, transparent 43%),
-                        radial-gradient(at 75% 100%, rgba(47, 0, 80, 0.3) 0, transparent 43%),
-                        radial-gradient(at 50% 100%, rgba(0, 5, 80, 0.3) 0, transparent 43%),
-                        radial-gradient(at 0% 50%, rgba(0, 6, 90, 0.319) 0, transparent 43%),
-                        radial-gradient(at 0% 98%, rgba(0, 35, 123, 0.522) 0, transparent 43%);
+    background-color: black;
+    background-image:   radial-gradient(at 50% 0%, rgba(63, 0, 222, 0.2) 0, transparent 43%),
+    radial-gradient(at 29% 38%, rgba(0, 102, 255, 0.1) 0, transparent 43%),
+    radial-gradient(at 69% 58%, rgba(0, 217, 255, 0.158) 0, transparent 63%),
+    radial-gradient(at 89% 98%, rgba(183, 0, 255, 0.2) 0, transparent 63%),
+    radial-gradient(at 99% 18%, rgba(51, 0, 255, 0.2) 0, transparent 43%),
+    radial-gradient(at 00% 00%, rgba(0, 17, 255, 0.2) 0, transparent 63%),
+    radial-gradient(at 75% 100%, rgba(149, 0, 255, 0.2) 0, transparent 43%),
+    radial-gradient(at 50% 100%, rgba(0, 17, 255, 0.2) 0, transparent 63%),
+    radial-gradient(at 0% 50%, rgba(0, 17, 255, 0.219) 0, transparent 63%),
+    radial-gradient(at 0% 100%, rgba(179, 0, 255, 0.252) 0, transparent 93%),
+    radial-gradient(at 50% 50%, rgba(0, 0, 00, 0),black, black),
+    radial-gradient(at 0% 0%, transparent, transparent);
   
 }
 
