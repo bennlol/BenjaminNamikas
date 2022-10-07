@@ -4,6 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Nav from "./components/Nav.jsx"
 import Home from "./pages/Home.jsx"
+import Aboutme from "./pages/Aboutme.jsx"
+import Resume from "./pages/Resume.jsx"
+import Projects from "./pages/Projects.jsx"
 import './assets/icofont/icofont.min.css';
 
 const App =() => {
@@ -12,9 +15,9 @@ const App =() => {
   <Nav/>
   <Routes>
     <Route path="/" element={<Home/>}/>
-    <Route path="/about-me" element={<Home/>}/>
-    <Route path="/resume" element={<Home/>}/>
-    <Route path="/projects" element={<Home/>}/>
+    <Route path="/aboutme" element={<Aboutme />}/>
+    <Route path="/resume" element={<Resume/>}/>
+    <Route path="/projects" element={<Projects/>}/>
   </Routes>
   </BrowserRouter>
     )
