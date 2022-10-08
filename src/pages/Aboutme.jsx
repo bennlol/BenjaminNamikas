@@ -6,7 +6,7 @@ const Aboutme = () => {
             <div className='h-full w-full py-20 px-4 sm:px-16 md:px-32 lg:px-72 items-left font-poppins'>
             <h1 className=' text-4xl pb-1 underline underline-offset-8  text-center w-full'>About Me</h1>
             {/* <hr classname=""></hr> */}
-            <p className=' pt-4 text-xl lx-8 text-center'>&nbsp;&nbsp;&nbsp;&nbsp;
+            <p className=' pt-4 text-xl lx-8 text-left'>&nbsp;&nbsp;&nbsp;&nbsp;
                 Hello, I am Benjamin Namikas. I am a High School student at Baton Rouge Magnet High School. 
                 Some of my hobbies include; computer science, reading, and debate. I am an active Boy Scout and have achieved
                 life rank. Eagle is right around the corner. I have also joined a lot of clubs at BRMHS including the STEM club,

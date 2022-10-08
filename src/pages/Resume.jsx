@@ -3,8 +3,8 @@ import React from 'react'
 const Resume = () => {
   return (
     <section className='pt-16'>
-        <div className='flex flex-col font-poppins px-4 md:px-[10%] lg-[15%] xl:px-[25%] pt-8 justify-center items-center text-center'>
-        <b class=" text-3xl mb-2">   Academic Experience</b>
+        <pre className='flex flex-col font-poppins px-4 md:px-[10%] lg-[15%] xl:px-[25%] pt-8 justify-center items-center text-left whitespace-pre-wrap text-base'>
+        <b class=" text-3xl mb-2">Academic Experience</b>
         2022 LSEF State science fair
 	2nd place in Robotics and Intelligent machines
 2022 LSEF Regional Science Fair
@@ -53,7 +53,7 @@ Piano, 2016- current participated in piano rally and festivle
 Boy Scouts, 2018- current 
 Badminton, 2021- current 
 Science Olympiad, 2018-2021 
-    </div>
+    </pre>
     </section>
   )
 }
