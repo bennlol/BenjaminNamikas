@@ -5,11 +5,11 @@ const Home = () => {
   return (
     <section>
       <section>
-        <div className=' bg-white flex flex-col w-full h-screen px-48 pt-28 justify-center items-center'>
-          <div className='flex justify-center items-center h-full'>
-            <h1 className='w-1/2 text-5xl text-center ml-16 font-poppins'>Hi,<br/>I'm Benjamin Namikas,<br/>A life long coder and<br/>creative thinker</h1>
-            <img className='h-64 w-48 mx-10 shadow-black shadow-md' alt="Benjamin Namikas" src={pic}></img>
-            <div className='flex flex-col w-1/2 text-5xl text-center mr-16 '>
+        <div className=' bg-gray-50 flex flex-col w-full h-screen px-2 sm:px-4 md:px-16 lg:px-32 xl:px-64 pt-28 justify-center items-center'>
+          <div className='flex justify-center items-center h-full text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+            <h1 className=' w-1/2  text-center  font-poppins'>Hi,<br/>I'm Benjamin Namikas,<br/>A life long coder and<br/>creative thinker</h1>
+            <img className='h-32 w-24 md:h-64 md:w-48 mx-2 md:mx-10 shadow-gray-400 shadow-md' alt="Benjamin Namikas" src={pic}></img>
+            <div className='flex flex-col w-1/2  text-center '>
             <h1 className='font-Signika'>“The past is in your head.<br/>The future is in your hands.”</h1>
             <h1 className='pt-4'>-Brian Ford</h1>
             </div>
