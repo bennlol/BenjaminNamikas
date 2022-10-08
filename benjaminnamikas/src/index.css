@@ -7,6 +7,10 @@
     src: url("./assets/fonts/Signika/Signika-VariableFont_wght.ttf");
 }
 
+.dark-text-graident{
+    color: linear-gradient(to right top, rgb(19, 78, 74), rgb(30, 64, 175), rgb(76, 29, 149));
+}
+
 .dark-gradient{
     background-color: black;
     background-image:   radial-gradient(at 50% 0%, rgba(63, 0, 222, 0.2) 0, transparent 43%),
