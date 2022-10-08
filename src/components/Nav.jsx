@@ -12,7 +12,7 @@ function classNames(...classes) {
 const Nav = () => {
   return (
     <nav className="absolute z-10 flex h-20 w-full bg-white border-b-2 justify-center items-center">
-      <h1 className=' float-left bg-gradient-to-tr bg-clip-text text-transparent from-teal-900 via-blue-800 to-violet-900 pl-10 font-poppins text-2xl sm:text-3xl font-bold whitespace-nowrap'>Benjamin Namikas</h1>
+      <div className=' float-left bg-gradient-to-tr bg-clip-text text-transparent from-teal-900 via-blue-800 to-violet-900 pl-10 font-poppins text-2xl sm:text-3xl font-bold whitespace-nowrap'><h1 className='hidden sm:block'>Benjamin Namikas</h1><h1 className='block sm:hidden'>BN</h1></div>
       {/* <div className='md:flex pr-4 hidden md:justify-end lg:justify-center items-center w-full h-full transition'>
       <Link to="" className='text-black text-xl px-2 mx-3'>Home</Link>
       <Link to="aboutme" className='text-black text-xl px-2 mx-3'>About Me</Link>
@@ -20,7 +20,7 @@ const Nav = () => {
       <Link to="projects" className='text-black text-xl px-2 mx-3'>Projects</Link>
       </div> */}
 
-      <Menu as="div" className="relative inline-block ml-auto pr-16 text-center">
+      <Menu as="div" className="relative inline-block ml-auto pr-2 sm:pr-4 md:pr-10 lg:pr-16 text-center">
       <div className='pr-4 items-end justify-end flex'>
         <Menu.Button className="inline-flex justify-center rounded-md border border-transparent hover:border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:shadow-sm hover:bg-gray-50 "> {/*focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-gray-100*/}
           <i class="icofont-navigation-menu icofont-2x"></i>
