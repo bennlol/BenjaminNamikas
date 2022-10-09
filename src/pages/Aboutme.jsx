@@ -4,7 +4,7 @@ import reactlogo from "../assets/react.png"
 import tailwindlogo from "../assets/tailwind.png"
 const Aboutme = () => {
     return (
-        <section className='flex flex-col pt-16 h-min-screen w-screen justify-center items-center transition-all'>
+        <section className='flex flex-col pt-16 h-min-screen w-full justify-center items-center transition-all'>
             <div className='h-full w-full py-16 sm:px-16 md:px-32 lg:px-72 items-left font-poppins'>
             <h1 className='text-6xl font-poppins text-gray-900 font-bold'>About Me</h1>
             <div className='w-full  border-b-2 border-transparent bg-primary bg-opacity-80'></div>
