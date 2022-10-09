@@ -7,6 +7,11 @@
     src: url("./assets/fonts/Signika/Signika-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: "Raleway";
+  src: url("./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
 .dark-text-graident{
     color: linear-gradient(to right top, rgb(19, 78, 74), rgb(30, 64, 175), rgb(76, 29, 149));
 }
@@ -45,7 +50,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #5b88b8;
+    background-color: #afafaf;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }

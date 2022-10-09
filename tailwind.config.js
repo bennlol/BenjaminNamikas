@@ -6,11 +6,18 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'primary': '#18a6b4'
+        'offwhite': '#FEFFFF',
+        'lightblue': '#DEF2F1',
+        'primary': '#3AAFA9',
+        'darkblue': '#2B7A78',
+        'offblack': '#17252A'
+
+
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
-        'Signika': ['Signika']
+        'Signika': ['Signika'],
+        'Raleway': ['Raleway']
       },
 
     },
