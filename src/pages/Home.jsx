@@ -1,7 +1,7 @@
 import React from 'react'
-import { ParallaxProvider } from 'react-scroll-parallax'
+// import { ParallaxProvider } from 'react-scroll-parallax'
 import pic from "../assets/me.jpg"
-import ParallaxGalaxy from '../components/ParallaxGalaxy.jsx'
+// import ParallaxGalaxy from '../components/ParallaxGalaxy.jsx'
 const Home = () => {
   return (
     <section>
