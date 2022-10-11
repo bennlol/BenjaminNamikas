@@ -12,7 +12,7 @@ function classNames(...classes) {
 const Nav = () => {
   return (
     <nav className="absolute z-10 flex h-20 w-full bg-white border-b-2 justify-center items-center">
-      <div className=' float-left bg-gradient-to-tr bg-clip-text text-transparent from-teal-900 via-blue-800 to-violet-900 pl-10 font-Raleway-500 text-2xl sm:text-3xl font-bold whitespace-nowrap tracking-tighter'><h1 className='hidden sm:block'>BENJAMIN NAMIKAS</h1><h1 className='block sm:hidden'>BN</h1></div>
+      <Link to=""> <div className=' float-left bg-gradient-to-tr bg-clip-text text-transparent cursor-pointer from-teal-900 via-blue-800 to-violet-900 pl-10 font-Raleway-500 text-2xl sm:text-3xl font-bold whitespace-nowrap tracking-tighter'><h1 className='hidden sm:block'>BENJAMIN NAMIKAS</h1><h1 className='block sm:hidden'>BN</h1></div></Link>
       {/* <div className='md:flex pr-4 hidden md:justify-end lg:justify-center items-center w-full h-full transition'>
       <Link to="" className='text-black text-xl px-2 mx-3'>Home</Link>
       <Link to="aboutme" className='text-black text-xl px-2 mx-3'>About Me</Link>
