@@ -1,7 +1,5 @@
 import React from 'react'
-// import { ParallaxProvider } from 'react-scroll-parallax'
 import pic from "../assets/me.jpg"
-// import ParallaxGalaxy from '../components/ParallaxGalaxy.jsx'
 const Home = () => {
   return (
     <section>
@@ -11,7 +9,7 @@ const Home = () => {
             <h1 className=' w-auto  text-center  font-poppins'>Hi,<br/>I'm Benjamin Namikas,<br/>A life long coder and<br/>creative thinker</h1>
             <img className='h-32 w-24 md:h-64 md:w-48 mx-2 md:mx-10 shadow-gray-400 shadow-md' alt="Benjamin Namikas" src={pic}></img>
             <div className='flex flex-col w-auto  text-center '>
-            <h1 className='font-Signika'>“The past is in your head.<br/>The future is in your hands.”</h1>
+            <h1 className='font-Signika'>“The past is in your head<br/>The future is in your hands”</h1>
             <h1 className='pt-1 md:pt-4'>-Brian Ford</h1>
             </div>
           </div>
