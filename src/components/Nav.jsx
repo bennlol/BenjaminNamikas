@@ -9,7 +9,7 @@ const Nav = () => {
       <MContext.Consumer>{ (context,) => (
     <Fragment>
     <nav className={classNames("absolute z-10 flex h-[4.8rem] w-full justify-center items-center", context.state.darkMode? "bg-offblack" : "bg-offwhite")}>
-      <Link to=""> <div className=' float-left bg-gradient-to-tr bg-clip-text text-transparent cursor-pointer from-teal-900 via-blue-800 to-violet-900 pl-10 font-Raleway-500 text-2xl sm:text-3xl font-bold whitespace-nowrap tracking-tighter'><h1 className='hidden sm:block'>BENJAMIN NAMIKAS</h1><h1 className='block sm:hidden'>BN</h1></div></Link>
+      <Link to=""> <div className={classNames(' float-left bg-gradient-to-tr bg-clip-text text-transparent cursor-pointer  pl-10 font-Raleway-500 text-2xl sm:text-3xl font-bold whitespace-nowrap tracking-tighter', context.state.darkMode? 'from-teal-600 via-blue-600 to-violet-600':'from-teal-900 via-blue-800 to-violet-900')}><h1 className='hidden sm:block'>BENJAMIN NAMIKAS</h1><h1 className='block sm:hidden'>BN</h1></div></Link>
       
         <i onClick={()=> (context.setDarkMode(context.state.darkMode?false:true)) } className={classNames("icofont-sun icofont-2x relative inline-block ml-auto mr-2 p-1 sm:mr-2 md:mr-3 lg:mr-4 text-center cursor-pointer rounded-md border border-transparent  hover:shadow-sm ", context.state.darkMode? ' text-white hover:bg-gray-900 hover:border-gray-700 ': 'text-black hover:border-gray-300 hover:bg-gray-50')}></i>
 
