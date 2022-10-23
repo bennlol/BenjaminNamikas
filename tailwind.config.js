@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'offwhite': '#FEFFFF',
+        'offwhite': '#DADBDC',
         'lightblue': '#DEF2F1',
         'primary': '#3AAFA9',
         'darkblue': '#2B7A78',
-        'offblack': '#17252A'
+        'offblack': '#01000f'
 
 
       },

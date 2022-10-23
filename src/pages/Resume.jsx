@@ -1,10 +1,14 @@
 import React from 'react'
+import { MContext, classNames} from '../components/VariableProvider';
+
 
 const Resume = () => {
   return (
-    <section className='pt-32 pb-16  md:px-[10%] lg-[15%] xl:px-[25%] '>
-		<h1 className='text-6xl font-poppins text-gray-900 font-bold'>Resume</h1>
-		<div className='w-full border-b-2 border-transparent bg-primary bg-opacity-80'></div>
+	<MContext.Consumer>{ (context,) => (
+
+    <section className={classNames('pt-32 pb-16  md:px-[10%] lg-[15%] xl:px-[25%] ', context.state.darkMode?'bg-black text-white':'bg-[rgba(225,225,225,0.9)] text-black')}>
+		<h1 className={classNames('text-6xl font-poppins font-bold',  context.state.darkMode?'text-gray-100':'text-gray-900' )}>Resume</h1>
+		<div className='w-full h-[2px] bg-black  bg-gradient-to-r from-blue-600 to-cyan-500 bg-opacity-80'></div>
 		<ul className = 'pl-2 flex flex-grow flex-col font-poppins px-4 pt-8 justify-center items-start text-left'>
         <b className="-ml-2 text-3xl mb-2">Academic Experience</b>
         <li>2022 LSEF State science fair</li>
@@ -55,6 +59,8 @@ const Resume = () => {
 <li>Science Olympiad, 2018-2021 </li>
 	</ul>
     </section>
+	)}
+	</MContext.Consumer>
   )
 }
 

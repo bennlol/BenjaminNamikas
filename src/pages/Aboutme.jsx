@@ -2,14 +2,17 @@ import React from 'react'
 import me from "../assets/me_coding.jpg"
 import reactlogo from "../assets/react.png"
 import tailwindlogo from "../assets/tailwind.png"
+import { MContext, classNames} from '../components/VariableProvider';
+
 const Aboutme = () => {
     return (
-        <section className='flex flex-col pt-16 h-min-screen w-full justify-center items-center transition-all'>
+        <MContext.Consumer>{ (context,) => (
+        <section className={classNames('flex flex-col pt-16 h-min-screen w-full justify-center items-center transition-all', context.state.darkMode?'bg-black text-[rgba(255,255,255,0.75)]':'bg-white text-black')}>
             <div className='h-full w-full py-16 sm:px-16 md:px-32 lg:px-72 items-left font-poppins'>
-            <h1 className='text-6xl font-poppins text-gray-900 font-bold'>About Me</h1>
+            <h1 className={classNames('text-6xl font-poppins  font-bold', context.state.darkMode? 'text-offwhite':'text-gray-900')}>About Me</h1>
             <div className='w-full  border-b-2 border-transparent bg-primary bg-opacity-80'></div>
             <div className='flex pt-12 px-4 text-xl my-auto lx-8 justify-center items-center text-left leading-relaxed'>
-            <img alt='Benjamin Namikas Coding'src={me} className='shadow-md shadow-gray-600 w-min-80 h-60 bg-gray-200'/>
+            <img alt='Benjamin Namikas Coding'src={me} className={classNames('shadow-md  w-min-80 h-60 ',context.state.darkMode? 'shadow-gray-800':'shadow-gray-600')}/>
             <p className='px-4'>&nbsp;&nbsp;&nbsp;&nbsp;
                 Hello, I am Benjamin Namikas. I am a High School student at Baton Rouge Magnet High School. 
                 Some of my hobbies include; computer science, reading, and debate. I am an active Boy Scout and have achieved
@@ -26,6 +29,8 @@ const Aboutme = () => {
             </div>
           </div>
         </section>
+        )}
+        </MContext.Consumer>
       )
 }
 

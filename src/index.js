@@ -7,10 +7,13 @@ import './index.css';
 // import Home from "./pages/Home.jsx"
 import './assets/icofont/icofont.min.css';
 import App from './App';
+import { VarProvider } from './components/VariableProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />,
+  <VarProvider>
+  <App />
+  </VarProvider>,
   root
 );
 
