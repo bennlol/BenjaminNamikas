@@ -23,7 +23,7 @@ const Home = () => {
       <div className='text-white font-poppins flex sm:h-screen w-full dark-gradient '>
         <div className={classNames('justify-center items-center flex flex-col p-8 md:p-32 h-full w-full bg-black', context.state.darkMode? ' bg-opacity-20':'bg-opacity-0')}>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl pb-4 md:pb-10'>The Future Awaits</h1>
-          <p className='text-lg sm:text-xl md:text-2xl px-2 sm:px-16 md:px-30 lg:px-48 xl:px-64 transition-all text-center'>&emsp; One man, but with the ability to change the world for the better. No matter how big everyone will shape the world. If everyone creates a positive place then eventually we will create a kind world with no war. All that is needed to is make your impact count. Leave a positive dent in all the negativity in the world. If we are all our own little candels, eventually we will become a bonfire. Share your heat with others and let them glow as well.</p>
+          <p className='text-lg sm:text-xl md:text-2xl px-2 sm:px-16 md:px-30 lg:px-48 xl:px-64 transition-all text-center'>&emsp; One man, but with the ability to change the world for the better. No matter how big, everyone will shape the world. If everyone creates a positive place, then eventually we will create a kind world with no war. All that is needed is to make your impact count. Leave a positive dent in all the negativity in the world. If we are all our own little candles, eventually we will become a bonfire. Share your heat with others and let them glow as well.</p>
           </div>
         </div>
       {/* <div className='w-full h-screen bg-white'></div> */}
