@@ -7,6 +7,7 @@ import Home from "./pages/Home.jsx"
 import Aboutme from "./pages/Aboutme.jsx"
 import Resume from "./pages/Resume.jsx"
 import Projects from "./pages/Projects.jsx"
+import Blog from "./pages/Blog.jsx"
 import './assets/icofont/icofont.min.css';
 
 const App =() => {
@@ -18,6 +19,7 @@ const App =() => {
     <Route path="/aboutme" element={<Aboutme />}/>
     <Route path="/resume" element={<Resume/>}/>
     <Route path="/projects" element={<Projects/>}/>
+    <Route path="/blog" element={<Blog/>}/>
   </Routes>
   </BrowserRouter>
     )
