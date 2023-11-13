@@ -1,5 +1,6 @@
 // const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const port = process.env.PORT || 3000;
 
@@ -38,8 +39,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'public/index.html',
-      favicon: 'public/favicon.ico'
-    })
+      favicon: 'public/favicon.ico',
+    }),
+    new Dotenv({
+      path: './path/to/your/.env',
+    }),
   ],
   devServer: {
     host: 'localhost',

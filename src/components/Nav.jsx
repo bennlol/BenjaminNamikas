@@ -13,6 +13,8 @@ const Nav = () => {
 
       <Link className={classNames(" ml-auto p-1 font-Raleway-500 text-2xl tracking-wide font-bold text-center cursor-pointer", context.state.darkMode? ' text-white ': 'text-black')} to="blog"><div >Blog</div></Link>
 
+      <a http-equiv="Refresh" content="0; url='https://www.w3docs.com'" className={classNames("p-1 font-Raleway-500 text-2xl tracking-wide font-bold text-center cursor-pointer", context.state.darkMode? ' text-white ': 'text-black')} href="https://kasm.benjaminnamikas.com"><div >Kasm</div></a>
+
         <i onClick={()=> (context.setDarkMode(context.state.darkMode?false:true)) } className={classNames("icofont-sun icofont-2x relative inline-block ml-auto mr-2 p-1 sm:mr-2 md:mr-3 lg:mr-4 text-center cursor-pointer rounded-md border border-transparent  hover:shadow-sm ", context.state.darkMode? ' text-white hover:bg-gray-900 hover:border-gray-700 ': 'text-black hover:border-gray-300 hover:bg-gray-50')}></i>
 
       <Menu as="div" className="relative inline-block pr-2 sm:pr-4 md:pr-6 lg:pr-8 text-center">
